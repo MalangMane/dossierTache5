@@ -1,0 +1,55 @@
+.info{
+    background-image: url(img/5.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    z-index: 2;
+
+}
+
+.info::after{
+    content: " ";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgb(21, 20, 51, 0.8);
+    z-index: -1;
+    
+}
+img{
+    margin-left: 8%;
+}
+.dropdown-menu{
+    background-color:#077f79;
+}
+.button1 {
+    background-color:#077f79;
+    font-size: 10px;
+}
+
+.btn{
+    font-size: 11px;
+}
+.btn1{
+    background-color: #ea9322;
+}
+
+.navbar-light .navbar-toggler-icon{
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28253, 252, 252%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.navbar-light .navbar-toggler{
+    border-color: #fff;
+    color: #ffffff;
+}
+
+
+@media screen and (max-width: 900px) {
+    .bg-nav{
+        background-color: rgb(21, 20, 51, 0.8);
+        backdrop-filter: 12px;
+    }
+}
